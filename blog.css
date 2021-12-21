@@ -1,0 +1,125 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: #f5f7f8;
+}
+html{
+    font-size:14px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.left{
+    width: 75%;
+    height: 960px;
+    background-image: url(https://www.w3schools.com/w3images/lights.jpg);
+    background-size: cover;/*bao phủ hết*/
+    background-repeat: no-repeat;/*không lập lại ảnh*/
+}
+.left2{
+    width: 75%;
+    height: 960px;
+    background-image: url(https://www.w3schools.com/w3images/nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left3{
+    width: 75%;
+    height: 960px;
+    background-image: url(https://img4.thuthuatphanmem.vn/uploads/2019/12/16/hinh-nen-4k-thien-nhien-dep_024352261.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left3 a i,
+.left2 a i,
+.left a i{
+    color: white;
+    font-size: 26px;
+    padding: 8px 16px;
+    margin: 12px;
+    border-radius: 50%;
+}
+.left3 a i:hover,
+.left2 a i:hover,
+.left a i:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.right{
+    width: 25%;
+    padding:0 16px;
+}
+.right_wrap{
+    height: 960px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;/*cách ra theo hàng dọc*/
+    justify-content: space-between;
+    border: 1px solid #ccc;
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.user img{
+    width: 60px;
+    border-radius: 50%;
+}
+.user p{
+    padding-left: 12px;
+    font-size: 20px;
+}
+.btn{
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.btn button{
+    width: 100%;
+    font-size: 20px;
+    background-color: #57707d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 12px 0;
+    border-right: 1px solid #999;
+    
+}
+.btn button i{
+    padding-right: 4px;
+}
+.btn button:hover{
+    background-color: #ccc;
+    color: black;
+}
+.comment{
+    display: flex;
+    align-items: center;
+}
+.comment img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.comment input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 100%;
+    padding: 16px 12px;
+}
