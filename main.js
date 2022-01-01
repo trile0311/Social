@@ -14,3 +14,16 @@ isComment.forEach(function(value,index){
         })
     })
 })
+
+var isBell = document.querySelector(".noti_bell");
+var isNoti = document.querySelector(".notification")
+isBell.addEventListener("click",function(){
+    isNoti.classList.toggle("open");
+})
+// var bellActive= document.querySelector(".noti_bell-active");
+// isBell.addEventListener("mouseover",function(){
+//     bellActive.classList.add("open-block");
+// })
+// isBell.addEventListener("mouseout",function(){
+//     bellActive.classList.remove("open-block");
+// })
